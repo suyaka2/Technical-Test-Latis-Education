@@ -1,0 +1,1517 @@
+DEBUG - 2026-09-18 00:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:14:35 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:14:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:14:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:14:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:17:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:17:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:17:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:17:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:17:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:17:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:17:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:17:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:19:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:19:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:19:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:19:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:19:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:19:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:19:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:19:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:21:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:21:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:21:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:21:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 216.
+ 1 APPPATH\Controllers\Siswa.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:27:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 214.
+ 1 APPPATH\Controllers\Siswa.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:27:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 214.
+ 1 APPPATH\Controllers\Siswa.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:27:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 214.
+ 1 APPPATH\Controllers\Siswa.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:27:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 214.
+ 1 APPPATH\Controllers\Siswa.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:27:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 214.
+ 1 APPPATH\Controllers\Siswa.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:27:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 214.
+ 1 APPPATH\Controllers\Siswa.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:27:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 214.
+ 1 APPPATH\Controllers\Siswa.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:27:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 214.
+ 1 APPPATH\Controllers\Siswa.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:27:54 --> ErrorException: Undefined variable $namaFile
+[Method: POST, Route: siswa/update-siswa]
+in APPPATH\Controllers\Siswa.php on line 180.
+ 1 APPPATH\Controllers\Siswa.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namaFile', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 180)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->update_siswa()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:29:55 --> ErrorException: Undefined array key "foto_profile"
+[Method: POST, Route: siswa/update-siswa]
+in APPPATH\Controllers\Siswa.php on line 163.
+ 1 APPPATH\Controllers\Siswa.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_profile"', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->update_siswa()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:31:36 --> ErrorException: Undefined variable $namaFile
+[Method: POST, Route: siswa/update-siswa]
+in APPPATH\Controllers\Siswa.php on line 195.
+ 1 APPPATH\Controllers\Siswa.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namaFile', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 195)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->update_siswa()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:34:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:34:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:34:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:34:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:34:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:34:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:34:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:34:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:35:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:35:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:35:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:35:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:40:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:40:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:40:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:40:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:41:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:41:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:41:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:41:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:42:10 --> ErrorException: Undefined array key "foto_profile"
+[Method: POST, Route: siswa/update-siswa]
+in APPPATH\Controllers\Siswa.php on line 162.
+ 1 APPPATH\Controllers\Siswa.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_profile"', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->update_siswa()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:45:46 --> Error: Call to a member function move() on null
+[Method: POST, Route: siswa/update-siswa]
+in APPPATH\Controllers\Siswa.php on line 169.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->update_siswa()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:47:00 --> Error: Call to a member function move() on null
+[Method: POST, Route: siswa/update-siswa]
+in APPPATH\Controllers\Siswa.php on line 169.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->update_siswa()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:47:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:47:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:47:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:47:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:47:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:47:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:47:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:47:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:53:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:53:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:53:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:53:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:56:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:56:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:56:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 00:56:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 00:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 00:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 01:18:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 01:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 01:18:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 01:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 01:18:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 01:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 01:18:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 229.
+ 1 APPPATH\Controllers\Siswa.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 01:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-09-18 01:18:47 --> Duplicate entry 'LBG002' for key 'siswa.id_lembaga'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `siswa` SET `nama_siswa` = \'Desta Maryanto\', `nis` = \'2026090184\', `email_siswa` = \'desta.botuna@gmail.com\', `id_lembaga` = \'LBG002\', `foto_siswa` = \'air_force_one-removebg-preview.png\'
+WHERE `id_siswa` = \'SWA002\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_siswa` = \'Desta Maryanto\', `nis` = \'2026090184\', `email_siswa` = \'desta.botuna@gmail.com\', `id_lembaga` = \'LBG002\', `foto_siswa` = \'air_force_one-removebg-preview.png\'
+WHERE `id_siswa` = \'SWA002\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_siswa` = \'Desta Maryanto\', `nis` = \'2026090184\', `email_siswa` = \'desta.botuna@gmail.com\', `id_lembaga` = \'LBG002\', `foto_siswa` = \'air_force_one-removebg-preview.png\'
+WHERE `id_siswa` = \'SWA002\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2531): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_siswa` = :nama_siswa:, `nis` = :nis:, `email_siswa` = :email_siswa:, `id_lembaga` = :id_lembaga:, `foto_siswa` = :foto_siswa:
+WHERE `id_siswa` = :id_siswa:', [...], false)
+ 5 APPPATH\Models\M_Siswa.php(36): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Siswa.php(180): App\Models\M_Siswa->updateDataSiswa([...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->update_siswa()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+CRITICAL - 2026-09-18 01:18:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'LBG002' for key 'siswa.id_lembaga'
+[Method: POST, Route: siswa/update-siswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2531): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_siswa` = :nama_siswa:, `nis` = :nis:, `email_siswa` = :email_siswa:, `id_lembaga` = :id_lembaga:, `foto_siswa` = :foto_siswa:
+WHERE `id_siswa` = :id_siswa:', [...], false)
+ 2 APPPATH\Models\M_Siswa.php(36): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Siswa.php(180): App\Models\M_Siswa->updateDataSiswa([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->update_siswa()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+CRITICAL - 2026-09-18 01:18:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'LBG002' for key 'siswa.id_lembaga'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_siswa` = \'Desta Maryanto\', `nis` = \'2026090184\', `email_siswa` = \'desta.botuna@gmail.com\', `id_lembaga` = \'LBG002\', `foto_siswa` = \'air_force_one-removebg-preview.png\'
+WHERE `id_siswa` = \'SWA002\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_siswa` = \'Desta Maryanto\', `nis` = \'2026090184\', `email_siswa` = \'desta.botuna@gmail.com\', `id_lembaga` = \'LBG002\', `foto_siswa` = \'air_force_one-removebg-preview.png\'
+WHERE `id_siswa` = \'SWA002\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2531): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_siswa` = :nama_siswa:, `nis` = :nis:, `email_siswa` = :email_siswa:, `id_lembaga` = :id_lembaga:, `foto_siswa` = :foto_siswa:
+WHERE `id_siswa` = :id_siswa:', [...], false)
+ 4 APPPATH\Models\M_Siswa.php(36): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\Siswa.php(180): App\Models\M_Siswa->updateDataSiswa([...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->update_siswa()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+CRITICAL - 2026-09-18 01:18:47 --> [Caused by] mysqli_sql_exception: Duplicate entry 'LBG002' for key 'siswa.id_lembaga'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `siswa` SET `nama_siswa` = \'Desta Maryanto\', `nis` = \'2026090184\', `email_siswa` = \'desta.botuna@gmail.com\', `id_lembaga` = \'LBG002\', `foto_siswa` = \'air_force_one-removebg-preview.png\'
+WHERE `id_siswa` = \'SWA002\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_siswa` = \'Desta Maryanto\', `nis` = \'2026090184\', `email_siswa` = \'desta.botuna@gmail.com\', `id_lembaga` = \'LBG002\', `foto_siswa` = \'air_force_one-removebg-preview.png\'
+WHERE `id_siswa` = \'SWA002\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_siswa` = \'Desta Maryanto\', `nis` = \'2026090184\', `email_siswa` = \'desta.botuna@gmail.com\', `id_lembaga` = \'LBG002\', `foto_siswa` = \'air_force_one-removebg-preview.png\'
+WHERE `id_siswa` = \'SWA002\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2531): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_siswa` = :nama_siswa:, `nis` = :nis:, `email_siswa` = :email_siswa:, `id_lembaga` = :id_lembaga:, `foto_siswa` = :foto_siswa:
+WHERE `id_siswa` = :id_siswa:', [...], false)
+ 5 APPPATH\Models\M_Siswa.php(36): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Siswa.php(180): App\Models\M_Siswa->updateDataSiswa([...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->update_siswa()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 01:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 01:38:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 255.
+ 1 APPPATH\Controllers\Siswa.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 255)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 01:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 01:38:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 255.
+ 1 APPPATH\Controllers\Siswa.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 255)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 01:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 01:38:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 255.
+ 1 APPPATH\Controllers\Siswa.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 255)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 01:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 01:38:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 255.
+ 1 APPPATH\Controllers\Siswa.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 255)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 01:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 01:38:59 --> ErrorException: Undefined variable $ModelSiswa
+[Method: GET, Route: siswa/hapus-siswa/954afec2e309af9ee8c82011352c0b7198e203ef]
+in APPPATH\Controllers\Siswa.php on line 228.
+ 1 APPPATH\Controllers\Siswa.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ModelSiswa', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->hapus_siswa('954afec2e309af9ee8c82011352c0b7198e203ef')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 01:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 01:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:14:17 --> ErrorException: Undefined variable $data_lembaga
+[Method: GET, Route: siswa]
+in APPPATH\Views\Page\siswa.php on line 13.
+ 1 APPPATH\Views\Page\siswa.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_lembaga', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\siswa.php', 13)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\siswa.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('Page/siswa', [], true)
+ 5 APPPATH\Controllers\Siswa.php(34): view('Page/siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->siswa_page()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:14:59 --> ErrorException: Undefined variable $data_lembaga
+[Method: GET, Route: siswa]
+in APPPATH\Views\Page\siswa.php on line 13.
+ 1 APPPATH\Views\Page\siswa.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_lembaga', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\siswa.php', 13)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\siswa.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('Page/siswa', [], true)
+ 5 APPPATH\Controllers\Siswa.php(36): view('Page/siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->siswa_page()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:18:20 --> ErrorException: Undefined array key "nama_lembaga"
+[Method: GET, Route: siswa]
+in APPPATH\Views\Page\siswa.php on line 44.
+ 1 APPPATH\Views\Page\siswa.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lembaga"', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\siswa.php', 44)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\siswa.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('Page/siswa', [], true)
+ 5 APPPATH\Controllers\Siswa.php(36): view('Page/siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->siswa_page()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:25:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:25:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:25:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:25:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:48:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:48:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:48:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:48:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:51:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:51:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:51:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:51:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:52:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:52:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:52:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:52:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:54:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:54:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:54:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:54:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 258.
+ 1 APPPATH\Controllers\Siswa.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 02:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 02:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 02:58:36 --> ErrorException: Undefined variable $data_user
+[Method: GET, Route: siswa]
+in APPPATH\Views\Template\navbar.php on line 178.
+ 1 APPPATH\Views\Template\navbar.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_user', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Template\\navbar.php', 178)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Template\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('Template/navbar', [], true)
+ 5 APPPATH\Controllers\Siswa.php(35): view('Template/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->siswa_page()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-18 03:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 03:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 12:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 12:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 12:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 12:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

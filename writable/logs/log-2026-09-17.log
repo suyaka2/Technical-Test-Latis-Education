@@ -1,0 +1,771 @@
+ERROR - 2026-09-17 04:09:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\LatisEducation_Test\app\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\LatisEducation_Test\app\Controllers\Login.php(43): App\Models\M_Login->getDataUser(Array)
+#6 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+#7 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\LatisEducation_Test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\LatisEducation_Test\app\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\LatisEducation_Test\app\Controllers\Login.php(43): App\Models\M_Login->getDataUser(Array)
+#5 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+#6 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\LatisEducation_Test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2026-09-17 04:09:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: auth/autentikasi]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ORDER BY `nama_kandidat` ASC', [...], false)
+ 3 APPPATH\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(43): App\Models\M_Login->getDataUser([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+ERROR - 2026-09-17 04:11:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\LatisEducation_Test\app\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\LatisEducation_Test\app\Controllers\Login.php(43): App\Models\M_Login->getDataUser(Array)
+#6 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+#7 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\LatisEducation_Test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\LatisEducation_Test\app\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\LatisEducation_Test\app\Controllers\Login.php(43): App\Models\M_Login->getDataUser(Array)
+#5 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+#6 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\LatisEducation_Test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2026-09-17 04:11:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: auth/autentikasi]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ORDER BY `nama_kandidat` ASC', [...], false)
+ 3 APPPATH\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(43): App\Models\M_Login->getDataUser([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+ERROR - 2026-09-17 04:33:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\LatisEducation_Test\app\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\LatisEducation_Test\app\Controllers\Login.php(39): App\Models\M_Login->getDataUser(Array)
+#6 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+#7 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\LatisEducation_Test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\LatisEducation_Test\app\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\LatisEducation_Test\app\Controllers\Login.php(39): App\Models\M_Login->getDataUser(Array)
+#5 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+#6 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\LatisEducation_Test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2026-09-17 04:33:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: auth/autentikasi]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ORDER BY `nama_kandidat` ASC', [...], false)
+ 3 APPPATH\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(39): App\Models\M_Login->getDataUser([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+ERROR - 2026-09-17 04:34:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\LatisEducation_Test\app\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\LatisEducation_Test\app\Controllers\Login.php(39): App\Models\M_Login->getDataUser(Array)
+#6 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+#7 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\LatisEducation_Test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\LatisEducation_Test\app\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\LatisEducation_Test\app\Controllers\Login.php(39): App\Models\M_Login->getDataUser(Array)
+#5 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+#6 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\LatisEducation_Test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2026-09-17 04:34:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: auth/autentikasi]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ORDER BY `nama_kandidat` ASC', [...], false)
+ 3 APPPATH\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(39): App\Models\M_Login->getDataUser([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+ERROR - 2026-09-17 04:35:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\LatisEducation_Test\app\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\LatisEducation_Test\app\Controllers\Login.php(39): App\Models\M_Login->getDataUser(Array)
+#6 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+#7 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\LatisEducation_Test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\LatisEducation_Test\app\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\LatisEducation_Test\app\Controllers\Login.php(39): App\Models\M_Login->getDataUser(Array)
+#5 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+#6 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\LatisEducation_Test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\laragon\www\LatisEducation_Test\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2026-09-17 04:35:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: auth/autentikasi]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ORDER BY `nama_kandidat` ASC', [...], false)
+ 3 APPPATH\Models\M_Login.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(39): App\Models\M_Login->getDataUser([...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->autentikasi()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 04:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 04:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 04:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 04:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 04:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 04:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 04:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 08:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 09:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 09:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 09:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 09:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 09:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 09:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 09:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 09:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 09:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 09:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 10:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 10:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 10:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 10:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 10:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 13:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 14:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 15:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 15:50:25 --> Error: Object of class App\Models\M_Lembaga could not be converted to string
+[Method: GET, Route: siswa/tambahData]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `lembaga`
+WHERE `nama_lembaga` = :nama_lembaga:
+ORDER BY `nama_lembaga` ASC', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `lembaga`
+WHERE `nama_lembaga` = :nama_lembaga:
+ORDER BY `nama_lembaga` ASC', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `lembaga`
+WHERE `nama_lembaga` = :nama_lembaga:
+ORDER BY `nama_lembaga` ASC', [...], false)
+ 6 APPPATH\Models\M_Lembaga.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Siswa.php(46): App\Models\M_Lembaga->getDataLembaga([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->tambah_data()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 15:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 15:53:04 --> Error: Object of class App\Models\M_Lembaga could not be converted to string
+[Method: GET, Route: siswa/tambahData]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `lembaga`
+WHERE `nama_lembaga` = :nama_lembaga:
+ORDER BY `nama_lembaga` ASC', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `lembaga`
+WHERE `nama_lembaga` = :nama_lembaga:
+ORDER BY `nama_lembaga` ASC', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `lembaga`
+WHERE `nama_lembaga` = :nama_lembaga:
+ORDER BY `nama_lembaga` ASC', [...], false)
+ 6 APPPATH\Models\M_Lembaga.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Siswa.php(46): App\Models\M_Lembaga->getDataLembaga([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->tambah_data()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 15:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 16:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 16:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-09-17 16:03:59 --> Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (\'SWA001\', \'Rudi\', \'1809500123\', \'rudi@gmail.com\', \'LBG001\', \'RAFLI.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (\'SWA001\', \'Rudi\', \'1809500123\', \'rudi@gmail.com\', \'LBG001\', \'RAFLI.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (\'SWA001\', \'Rudi\', \'1809500123\', \'rudi@gmail.com\', \'LBG001\', \'RAFLI.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (:id_siswa:, :nama_siswa:, :nis:, :email:, :id_lembaga:, :foto_siswa:)', [...], false)
+ 5 APPPATH\Models\M_Siswa.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Siswa.php(116): App\Models\M_Siswa->saveDataSiswa([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->simpan_siswa()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+CRITICAL - 2026-09-17 16:03:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'field list'
+[Method: POST, Route: siswa/simpan-siswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (:id_siswa:, :nama_siswa:, :nis:, :email:, :id_lembaga:, :foto_siswa:)', [...], false)
+ 2 APPPATH\Models\M_Siswa.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siswa.php(116): App\Models\M_Siswa->saveDataSiswa([...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->simpan_siswa()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+CRITICAL - 2026-09-17 16:03:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (\'SWA001\', \'Rudi\', \'1809500123\', \'rudi@gmail.com\', \'LBG001\', \'RAFLI.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (\'SWA001\', \'Rudi\', \'1809500123\', \'rudi@gmail.com\', \'LBG001\', \'RAFLI.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (:id_siswa:, :nama_siswa:, :nis:, :email:, :id_lembaga:, :foto_siswa:)', [...], false)
+ 4 APPPATH\Models\M_Siswa.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Siswa.php(116): App\Models\M_Siswa->saveDataSiswa([...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->simpan_siswa()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+CRITICAL - 2026-09-17 16:03:59 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (\'SWA001\', \'Rudi\', \'1809500123\', \'rudi@gmail.com\', \'LBG001\', \'RAFLI.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (\'SWA001\', \'Rudi\', \'1809500123\', \'rudi@gmail.com\', \'LBG001\', \'RAFLI.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (\'SWA001\', \'Rudi\', \'1809500123\', \'rudi@gmail.com\', \'LBG001\', \'RAFLI.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `nis`, `email`, `id_lembaga`, `foto_siswa`) VALUES (:id_siswa:, :nama_siswa:, :nis:, :email:, :id_lembaga:, :foto_siswa:)', [...], false)
+ 5 APPPATH\Models\M_Siswa.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Siswa.php(116): App\Models\M_Siswa->saveDataSiswa([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->simpan_siswa()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 16:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 16:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 16:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 16:10:58 --> ErrorException: Undefined variable $dataSiswa
+[Method: GET, Route: siswa]
+in APPPATH\Views\Page\siswa.php on line 25.
+ 1 APPPATH\Views\Page\siswa.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataSiswa', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\siswa.php', 25)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\siswa.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('Page/siswa', [], true)
+ 5 APPPATH\Controllers\Siswa.php(32): view('Page/siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->siswa_page()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 16:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 16:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 17:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 17:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:10:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/SWA001]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('SWA001')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:11:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/SWA001]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('SWA001')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:11:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/SWA001]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('SWA001')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:11:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/SWA001]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('SWA001')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:13:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/SWA001]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('SWA001')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:17:23 --> ErrorException: Undefined array key "id_lembaga"
+[Method: GET, Route: siswa/editSiswa/SWA001]
+in APPPATH\Views\Page\editSiswa.php on line 46.
+ 1 APPPATH\Views\Page\editSiswa.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_lembaga"', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\editSiswa.php', 46)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\editSiswa.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('Page/editSiswa', [], true)
+ 5 APPPATH\Controllers\Siswa.php(161): view('Page/editSiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('SWA001')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:18:23 --> ErrorException: Undefined array key "nama_lembaga"
+[Method: GET, Route: siswa/editSiswa/SWA001]
+in APPPATH\Views\Page\editSiswa.php on line 46.
+ 1 APPPATH\Views\Page\editSiswa.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lembaga"', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\editSiswa.php', 46)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\editSiswa.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('Page/editSiswa', [], true)
+ 5 APPPATH\Controllers\Siswa.php(161): view('Page/editSiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('SWA001')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:20:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/SWA001]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('SWA001')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 17:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 17:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:22:07 --> ErrorException: Undefined array key "id_lembaga"
+[Method: GET, Route: siswa/editSiswa/e2f7992d15bc816a9301a2e5964b446239297ca5]
+in APPPATH\Views\Page\editSiswa.php on line 46.
+ 1 APPPATH\Views\Page\editSiswa.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_lembaga"', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\editSiswa.php', 46)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\editSiswa.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('Page/editSiswa', [], true)
+ 5 APPPATH\Controllers\Siswa.php(161): view('Page/editSiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('e2f7992d15bc816a9301a2e5964b446239297ca5')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:24:01 --> ErrorException: Undefined variable $data_buku
+[Method: GET, Route: siswa/editSiswa/e2f7992d15bc816a9301a2e5964b446239297ca5]
+in APPPATH\Views\Page\editSiswa.php on line 77.
+ 1 APPPATH\Views\Page\editSiswa.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_buku', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\editSiswa.php', 77)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\editSiswa.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('Page/editSiswa', [], true)
+ 5 APPPATH\Controllers\Siswa.php(161): view('Page/editSiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('e2f7992d15bc816a9301a2e5964b446239297ca5')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:24:30 --> ErrorException: Undefined variable $data_buku
+[Method: GET, Route: siswa/editSiswa/e2f7992d15bc816a9301a2e5964b446239297ca5]
+in APPPATH\Views\Page\editSiswa.php on line 77.
+ 1 APPPATH\Views\Page\editSiswa.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_buku', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\editSiswa.php', 77)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\LatisEducation_Test\\app\\Views\\Page\\editSiswa.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('Page/editSiswa', [], true)
+ 5 APPPATH\Controllers\Siswa.php(161): view('Page/editSiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('e2f7992d15bc816a9301a2e5964b446239297ca5')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 17:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:24:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:24:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:24:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 17:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 17:24:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 23:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 23:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 23:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 23:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 23:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 23:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 23:58:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 23:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 23:58:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 23:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 23:58:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 23:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 23:58:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 23:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 23:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-17 23:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 23:59:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_1.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_1.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 23:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 23:59:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_2.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_2.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 23:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 23:59:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile_3.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile_3.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')
+DEBUG - 2026-09-17 23:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-17 23:59:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: siswa/editSiswa/img/undraw_profile.svg]
+in APPPATH\Controllers\Siswa.php on line 151.
+ 1 APPPATH\Controllers\Siswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\LatisEducation_Test\\app\\Controllers\\Siswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->edit_siswa('img', 'undraw_profile.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\LatisEducation_Test\\public\\index.php')

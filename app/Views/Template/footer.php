@@ -90,7 +90,7 @@
                     buttons: [
                 {
                     extend: 'excel',
-                    // Ini kuncinya: Cuma export kolom index 0 sampai 4 (No, Nama, NIS, Email, Lembaga)
+                    
                     exportOptions: {
                         columns: [0, 1, 2, 3, 4] 
                     }
